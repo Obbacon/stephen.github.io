@@ -1,20 +1,28 @@
 body {
-    margin: 0;
+    margin: 0px;
     font-family: 'Merriweather', serif;
 }
 
-.main {
-    background-image: url("http://htc-wallpaper.com/wp-content/uploads/2014/03/Funny-evolution.jpg?8a4edc");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+html {
+    background: url("http://allpicts.in/download/2887/7_Best_Pattern_of_Background_Images_for_Websites_3_Orange.jpg/") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-#container{
+main {
+    
+}
+
+@media screen and (min-width:1000px){
+    #container{
     height: 700px;
     width: 1000px;
     margin: 0 auto;
+    }
 }
+
 
 .header{
     margin-top: 0px;
@@ -52,4 +60,13 @@ h1 {
     color:  #fff;
     text-align: center;
     clear: both;
+    padding-top: 200px;
+}
+
+h2 {
+    font-size: 30px;
+    color:  #fff;
+    text-align: center;
+    clear: both;
+    margin-top: -50px;
 }
