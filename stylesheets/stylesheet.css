@@ -3,19 +3,17 @@ body {
     font-family: 'Merriweather', serif;
 }
 
-html {
-    background: url("http://allpicts.in/download/2887/7_Best_Pattern_of_Background_Images_for_Websites_3_Orange.jpg/") no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-main {
-    
-}
 
 @media screen and (min-width:1000px){
+ 
+    .main {
+    height: 700px;
+    background-image: url("http://allpicts.in/download/2887/7_Best_Pattern_of_Background_Images_for_Websites_3_Orange.jpg/");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
     #container{
     height: 700px;
     width: 1000px;
@@ -24,9 +22,36 @@ main {
 }
 
 
+@media screen and (min-width:320px) and (max-width:999px){
+    
+    body {
+    height: 100%;
+    width: 100%;
+}
+    
+    .main {
+    height: 100%;
+    width: 100%;
+    background-image: url("http://allpicts.in/download/2887/7_Best_Pattern_of_Background_Images_for_Websites_3_Orange.jpg/");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    #container{
+    height: 700px;
+    width: 400px;
+    margin: 0 auto;
+    }
+}
+
+
+
+
 .header{
     margin-top: 0px;
-    width: 100%;
+    width: 1000px;
+    margin: 0 auto
 }
 
 .logo {
@@ -34,10 +59,9 @@ main {
     margin-top: 10px;
 }
 
-.nav{
+nav{
     float: right;
     margin-top: 26px;
-    
 }
 
 .navbar {
@@ -52,21 +76,64 @@ main {
 }
 
 span {
-    width: 100%
+    width: 100%;
 }
 
 h1 {
     font-size: 80px;
-    color:  #fff;
+    color: #fff;
     text-align: center;
     clear: both;
     padding-top: 200px;
 }
 
 h2 {
-    font-size: 30px;
-    color:  #fff;
+    font-size: 36px;
+    color: #fff;
     text-align: center;
     clear: both;
-    margin-top: -50px;
+    margin-top: -60px;
+}
+
+/* Header Section */
+
+
+#head{
+    width: 100%;
+    height: 350px;
+    background-image: url("http://allpicts.in/download/2887/7_Best_Pattern_of_Background_Images_for_Websites_3_Orange.jpg/");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+     
+}
+
+.port {
+    padding-top: 75px;
+}
+
+.portfolio {
+    width: 300px;
+    height: 250px;
+}
+
+.padding {
+    padding-left: 45px;
+}
+
+
+.one {
+    margin-top: 35px;
+}
+
+.two {
+    margin-top: 35px;
+}
+
+.three {
+    margin-top: 35px;
+}
+
+.four {
+    margin-top: 35px;
 }
